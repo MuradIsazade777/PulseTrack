@@ -45,7 +45,7 @@ dotnet run
 API will be available at:
 
 Code
-http://localhost:5000
+http://localhost:5000/api/metrics/heartrate
 📬 Sample Request
 ```bash
 curl -X POST http://localhost:5000/api/metrics/heartrate \
