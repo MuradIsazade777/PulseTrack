@@ -52,6 +52,20 @@ curl -X POST http://localhost:5000/api/metrics/heartrate \
 -H "Content-Type: application/json" \
 -d "{\"bpm\": 85, \"timestamp\": \"2025-09-25T19:30:00\"}"
 ```
+## 📥 Sample Response
+
+After sending a valid request to `POST /api/metrics/heartrate`, the API returns structured JSON data like this:
+
+```json
+[
+  {
+    "id": 1,
+    "pm": 65,
+    "timestamp": "2023-09-28T20:18:00"
+  }
+]
+```
+
 🛡️ License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
